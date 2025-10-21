@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @GetMapping("/test")
-    public String testConnection() {
-        return "✅ CineHub backend is running on port 8081!";
+    @GetMapping("/api/test")
+    public String test() {
+        return "Backend is connected!";
     }
 }
